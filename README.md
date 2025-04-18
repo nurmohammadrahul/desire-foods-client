@@ -1,12 +1,53 @@
-# React + Vite
+# 🍔 Desire Foods
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Desire Foods** – a modern food ordering platform built with **React**, **Stripe** for payment processing, and **Firebase Authentication**. This app allows users to browse food categories, place orders, and pay securely using Stripe.
 
-Currently, two official plugins are available:
+**Live Demo:** [Desire Foods](https://desire-foods-e88a9.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🍕 Browse food categories and menu items
+- 🛒 Add items to the cart and place orders
+- 🔒 Secure user authentication with **Firebase**
+- 💳 Payment integration with **Stripe**
+- 📦 Order history tracking
+- 🏠 Intuitive user interface with a seamless experience
+
+---
+
+## 🧪 Tech Stack
+
+**Frontend:**
+- React
+- React Router DOM
+- Axios
+- Tailwind CSS
+- Firebase Authentication
+
+**Payment Integration:**
+- Stripe (for secure payment processing)
+- `@stripe/react-stripe-js`
+- `@stripe/stripe-js`
+
+**Development Tools:**
+- Vite (for fast bundling)
+- React Query (for fetching and managing data)
+- DaisyUI (for UI components)
+
+**DevDependencies:**
+- ESLint (for linting)
+- TailwindCSS (for styling)
+- React Icons (for icon support)
+
+---
+
+## 📦 Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/desire-foods.git
+cd desire-foods
+npm install
