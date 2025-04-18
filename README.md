@@ -1,6 +1,6 @@
 # 🍔 Desire Foods
 
-Welcome to **Desire Foods** – a modern food ordering platform built with **React**, **Stripe** for payment processing, and **Firebase Authentication**. This app allows users to browse food categories, place orders, and pay securely using Stripe.
+**Desire Foods** is a modern food ordering platform with a seamless UI and secure payment processing via **Stripe**. Built with **React** on the frontend and **Node.js/Express** on the backend, this platform allows users to browse food items, place orders, and pay securely.
 
 **Live Demo:** [Desire Foods](https://desire-foods-e88a9.web.app/)
 
@@ -8,46 +8,41 @@ Welcome to **Desire Foods** – a modern food ordering platform built with **Rea
 
 ## 🚀 Features
 
-- 🍕 Browse food categories and menu items
-- 🛒 Add items to the cart and place orders
-- 🔒 Secure user authentication with **Firebase**
-- 💳 Payment integration with **Stripe**
-- 📦 Order history tracking
-- 🏠 Intuitive user interface with a seamless experience
+- 🍕 **Browse food categories** and menu items
+- 🛒 **Add items to the cart** and place orders
+- 🔒 **User authentication** using **Firebase**
+- 💳 **Payment integration** with **Stripe**
+- 📦 **Order history tracking**
+- 🏠 **Intuitive UI** with a seamless experience
 
 ---
 
 ## 🧪 Tech Stack
 
-**Frontend:**
-- React
-- React Router DOM
-- Axios
-- Tailwind CSS
-- Firebase Authentication
+### Frontend:
+- **React** for building the UI
+- **React Router** for navigation
+- **Tailwind CSS** for styling
+- **Firebase** for authentication
+- **React Query** for data fetching and management
+- **Stripe** for payment processing
 
-**Payment Integration:**
-- Stripe (for secure payment processing)
-- `@stripe/react-stripe-js`
-- `@stripe/stripe-js`
-
-**Development Tools:**
-- Vite (for fast bundling)
-- React Query (for fetching and managing data)
-- DaisyUI (for UI components)
-
-**DevDependencies:**
-- ESLint (for linting)
-- TailwindCSS (for styling)
-- React Icons (for icon support)
+### Backend:
+- **Node.js/Express** for the server
+- **MongoDB** for the database
+- **Stripe** for payment processing
+- **JWT** for user authentication
+- **CORS** and **Dotenv** for environment configuration
 
 ---
 
 ## 📦 Installation
 
-### Clone the repository
+### Clone the repositories
+
+#### Frontend (Client)
 
 ```bash
-git clone https://github.com/your-username/desire-foods.git
-cd desire-foods
+git clone https://github.com/your-username/desire-foods-client.git
+cd desire-foods-client
 npm install
